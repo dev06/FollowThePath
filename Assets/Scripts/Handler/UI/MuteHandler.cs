@@ -40,8 +40,11 @@ public class MuteHandler : MonoBehaviour {
 
 		}
 
-		animation.Stop();
-		animation.Play(animation.clip.name);
+		if (animation.isPlaying == false)
+		{
+			animation.Stop();
+			animation.Play(animation.clip.name);
+		}
 	}
 
 }

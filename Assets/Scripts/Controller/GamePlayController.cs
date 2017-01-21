@@ -56,7 +56,7 @@ public class GamePlayController : MonoBehaviour {
 
 	public float[] PathLength = {6, 10};
 	public int [] PickUpSpawn = {10, 20};
-	public float InitPathLength = 8;
+	public float InitPathLength = 15;
 	public int PathCount = 5;
 	public float PathWidth = .25f;
 	public int PickupSpawnProb = 4;

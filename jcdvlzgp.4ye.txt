@@ -1,0 +1,27 @@
+﻿Added setting :q
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Assets/Resources/animation/ui/setting_icon.anim
+#	new file:   Assets/Resources/animation/ui/setting_icon.anim.meta
+#	new file:   Assets/Resources/animation/ui/setting_icon_close.anim
+#	new file:   Assets/Resources/animation/ui/setting_icon_close.anim.meta
+#	new file:   Assets/Resources/textures/misc/back.png
+#	new file:   Assets/Resources/textures/misc/back.png.meta
+#	new file:   Assets/Resources/textures/misc/gear.png
+#	new file:   Assets/Resources/textures/misc/gear.png.meta
+#	modified:   Assets/Scenes/game.unity
+#	modified:   Assets/Scripts/Controller/GamePlayController.cs
+#	modified:   Assets/Scripts/Handler/UI/ButtonEventHandler.cs
+#	new file:   Assets/Scripts/Handler/UI/Icon.cs
+#	new file:   Assets/Scripts/Handler/UI/Icon.cs.meta
+#	new file:   Assets/Scripts/Handler/UI/IconHandler.cs
+#	new file:   Assets/Scripts/Handler/UI/IconHandler.cs.meta
+#	modified:   Assets/Scripts/Handler/UI/MuteHandler.cs
+#	modified:   Assets/Scripts/Util/AppResources.cs
+#	new file:   igwh1nst.gv1.txt
+#
+

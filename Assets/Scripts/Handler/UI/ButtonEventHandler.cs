@@ -16,6 +16,7 @@ public enum ButtonID
 	BLOWCOIN,
 	FACEBOOK,
 	RATE,
+	SETTING,
 }
 
 public class ButtonEventHandler : MonoBehaviour, IPointerClickHandler, IPointerUpHandler, IPointerDownHandler {
@@ -62,6 +63,7 @@ public class ButtonEventHandler : MonoBehaviour, IPointerClickHandler, IPointerU
 
 				case ButtonID.MUTE:
 				{
+
 					AudioController.Instance.SetMute(!AudioController.Instance.mute);
 					GetComponent<MuteHandler>().UpdatePauseMute(AudioController.Instance.mute);
 					GetComponent<MuteHandler>().OnChange();
@@ -98,12 +100,23 @@ public class ButtonEventHandler : MonoBehaviour, IPointerClickHandler, IPointerU
 				}
 				case ButtonID.FACEBOOK:
 				{
-					FacebookManager.Instance.Share();
+					if (transform.GetComponent<Icon>().interactable)
+					{
+						FacebookManager.Instance.Share();
+					}
 					break;
 				}
 				case ButtonID.RATE:
 				{
-					GameManager.Instance.RateApp();
+					if (transform.GetComponent<Icon>().interactable)
+					{
+						GameManager.Instance.RateApp();
+					}
+					break;
+				}
+				case ButtonID.SETTING:
+				{
+					transform.GetComponentInParent<IconHandler>().ToggleIcons();
 					break;
 				}
 			}
