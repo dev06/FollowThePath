@@ -76,6 +76,10 @@ public class GamePlayController : MonoBehaviour {
 		EventManager.OnSwipe -= OnSwipe;
 	}
 
+
+
+
+
 	void Start ()
 	{
 		difficulty = startDifficulty;

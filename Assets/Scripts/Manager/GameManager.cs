@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour {
 	{
 		//SaveManager.DeleteAll();
 		GamePlayController.Instance.SetTotalPickup(SaveManager.GetInt("pickup"));
+
+
+
 	}
 
 

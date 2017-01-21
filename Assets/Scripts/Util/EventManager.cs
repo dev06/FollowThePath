@@ -18,4 +18,8 @@ public class EventManager : MonoBehaviour {
 	public delegate void Skin(int i);
 	public static Skin OnSkinChange;
 
+
+
+
+
 }
